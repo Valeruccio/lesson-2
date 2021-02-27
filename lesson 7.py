@@ -1,0 +1,18 @@
+winners = ["Max", 'Leo', 'Kate']
+
+for winner in winners:
+    print(winner)
+print("00000000000000000000000000000000000000000000000000000000000000000000")
+for i in range(1, len(winners)+1):
+    print(i, ')', winners[i-1])
+print("00000000000000000000000000000000000000000000000000000000000000000000")
+
+
+print("00000000000000000000000000000000000000000000000000000000000000000000")
+
+
+numbers = range(10)
+print(numbers)
+print(type(numbers))
+
+print(list(numbers))
